@@ -1,7 +1,6 @@
 # SAMPLE FILTERING OF QCed, BATCH CORRECTED DATASET PRODUCED BY RACHEL EDGAR
 # QCed dataset: "threebatch_combined_organoids_combatted.Rdata"
 # Current metadata: "AllEPICOrganoid_FullMetadata_27Sep22.RData"
-# Run locally
 # 07Oct22
 
 
