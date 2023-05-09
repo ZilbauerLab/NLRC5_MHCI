@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# If the same sample libraries have been run across multiple lanes only
+# Sample libraries have been run across multiple lanes
 
 for FILE in NGS-K.NAYAK-40706_RE/run1_fastqs/*.fastq.gz; do
 
