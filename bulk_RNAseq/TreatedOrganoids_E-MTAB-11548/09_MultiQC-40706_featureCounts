@@ -1,0 +1,4 @@
+# MultiQC to compile STAR log output into 1 report: https://multiqc.info/
+# Run locally (MultiQC version 1.12)
+
+multiqc ../../RAW_COUNTS/RE_GRCh38_per-gene-counts.txt.summary -n 14_GRCh38featureCounts_MultiQCReport-40706.html --interactive --zip-data-dir &> 14_GRCh38featureCounts_MultiQC-40706.log
