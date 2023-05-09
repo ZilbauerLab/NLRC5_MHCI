@@ -5,7 +5,6 @@
 - Platform: Illumina Infinium MethylationEPIC
 
 <br>
-<br>
 
 # COHORT 2: E-MTAB-5464
 <br>
