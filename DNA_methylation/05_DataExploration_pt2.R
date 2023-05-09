@@ -1,11 +1,7 @@
 # DATA EXPLORATION (PART 2):
 # Folders needed: HEAT_SCREE_PLOTS, CLUSTER_PLOTS, MHCI_SCORE_DISTRIBUTION, MHCI_SCORE_CORRELATIONS
 # Using NLRC5 paper specific plot themes & schemes in NLRC5_PlotTools.R in addition to the usual
-# 31Oct22: Update to use further sample updates and to add a couple of extra plots
-# 26Oct22: Update to include extra analyses & plots
-# 24Oct22: Update to use sample info updates
-# 14Oct22: Update to add Wilcox tests for correlation between Average MHCI score & clinical features + to add tests for the SC data
-# 11Oct22 (fp215)
+# 31Oct22 (fp215)
 
 
 ##################################
