@@ -1,0 +1,9 @@
+# MultiQC to compile STAR log output into 1 report: https://multiqc.info/
+# Run locally (MultiQC version 1.12)
+
+multiqc RE-AF_GRCh37 -n 09_GRCh37AlignedBAMs_MultiQCReport-40706-40750.html --interactive --zip-data-dir &> 09_GRCh37AlignedBAMs_MultiQC-40706-40750.log
+multiqc RE-AF_GRCh38 -n 09_GRCh38AlignedBAMs_MultiQCReport-40706-40750.html --interactive --zip-data-dir &> 09_GRCh38AlignedBAMs_MultiQC-40706-40750.log
+
+multiqc HOWELL_GRCh37 -n 09_GRCh37AlignedBAMs_MultiQCReport-Howell.html --interactive --zip-data-dir &> 09_GRCh37AlignedBAMs_MultiQC-Howell.log
+multiqc HOWELL_GRCh38 -n 09_GRCh38AlignedBAMs_MultiQCReport-Howell.html --interactive --zip-data-dir &> 09_GRCh38AlignedBAMs_MultiQC-Howell.log
+

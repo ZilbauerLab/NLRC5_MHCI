@@ -1,0 +1,8 @@
+# Notes on FastQC output: https://www.bioinformatics.babraham.ac.uk/projects/fastqc/Help/3%20Analysis%20Modules/
+# RNASeq will usually/often fail: PerBaseSeqCont & SeqDupLevels
+# MultiQC to compile FastQC output into 1 report: https://multiqc.info/
+# Run locally (MultiQC version 1.12)
+
+multiqc HOWELL -n 06_TrimmedFastQ_MultiQCReport-Howell.html --interactive --zip-data-dir &> 06_TrimmedFastQ_MultiQC-Howell.log
+multiqc RE-AF -n 06_TrimmedFastQ_MultiQCReport-40706-40750.html --interactive --zip-data-dir &> 06_TrimmedFastQ_MultiQC-40706-40750.log
+
